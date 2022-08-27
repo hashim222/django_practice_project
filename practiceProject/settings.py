@@ -33,7 +33,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["hashim-practice-project.herokuapp.com", "localhost"]
+ALLOWED_HOSTS = ["hashim-practice-project.herokuapp.com", "127.0.0.1"]
 
 
 # Application definition
